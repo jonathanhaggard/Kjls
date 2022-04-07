@@ -1,0 +1,13 @@
+.XRF{
+  height: 20px;
+  width: 20px;
+  color: red;
+  position: absolute;
+  z-index: 999999;
+  top:0;
+  left:0;
+}
+
+.XRF::before{
+  content: "t";
+}
